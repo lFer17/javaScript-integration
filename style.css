@@ -134,10 +134,13 @@
   /*Mobile Menu*/
 
   .mobile-menu {
+    background-color: var(--white);
     padding: 24px;
     position: absolute;
-    top: 24px; 
+    top: 60px; 
     left: 0px;
+    width: calc(100% - 48px);
+    height: 100vh;
     
   }
   .mobile-menu a {
@@ -297,16 +300,7 @@
       width: 140px;
       height: 140px;
     }
-  }
 
-  @media (max-width: 640px) {
-    .product-detail {
-      width: 100%;
-    }
-  }
-
-
-  @media (max-width: 640px) {
     .menu {
       display: block;
     }
@@ -319,7 +313,13 @@
     .desktop-menu{
       display: none; 
     }
+
+    .product-detail {
+      width: 100%;
+    }
+
   }
+
 
   @media (min-width: 641px){
     .mobile-menu{
